@@ -12,14 +12,14 @@ int main(int* argc, char** argv)
 	* 1920 X 1283
 	* 1280 X 855
 	*/
-	//IntrinsicCalibration* Ic = new IntrinsicCalibration();
-	//Ic->CalaculateIntrinsicParameters();
+	IntrinsicCalibration* Ic = new IntrinsicCalibration();
+	Ic->CalaculateIntrinsicParameters();
 
 	ExtrinsicCalibration* Ec = new ExtrinsicCalibration();
 	Ec->CalculateExtrinsicParameters();
 
 	delete Ec;
-	//delete Ic;
+	delete Ic;
 
 	Helper::RenderCameras();
 	destroyAllWindows();
