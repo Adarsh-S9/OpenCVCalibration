@@ -6,3 +6,5 @@ Relative directories for the data for Intrinsic and Extrinsic data calculation a
 Also number of cameras and number of frames, save file names for intrinsic, extrinsic data are to be provided in Macros.h file.<br/>
 
 After calculating intrinsic and extrinsic parameters, camera widgets are rendered using viz module. <br/>
+They are as follows
+![alt text](http://url/to/img.png)
