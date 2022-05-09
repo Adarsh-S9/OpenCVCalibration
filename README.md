@@ -7,4 +7,4 @@ Also number of cameras and number of frames, save file names for intrinsic, extr
 
 After calculating intrinsic and extrinsic parameters, camera widgets are rendered using viz module. <br/>
 They are as follows
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Adarsh-S9/OpenCVCalibration/blob/master/Result/Cameras.png)
